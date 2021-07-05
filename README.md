@@ -6,12 +6,12 @@ FLVS has no public API that students can use, when I was a student at FLVS I mad
 This can also be useful for when you aren't home but would like to check your grades, you can use this API for something like discord to automatically update your grades in a message (like I did).
 
 # Information
-APIkeys need to be regenerated every ~1 hour or if you login on your client, for this reason I would just do something like this (what I did)\
+APIkeys need to be regenerated every ~1 hour or if you login on your client, for this reason I would just do something like this (what I did)
 ```go
-infoUnFormatted, err := getClasses(userid)
+infoUnFormatted, err := schoolapi.GetClasses(userid)
 if err != nil {
 	apiKey = schoolapi.GetAPIKey(username, password, true)
-	infoUnFormatted, err = getClasses(userid)
+	infoUnFormatted, err = schoolapi.GetClasses(userid)
 	if err != nil {
 		os.Exit(2)
 		return
