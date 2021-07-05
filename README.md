@@ -21,3 +21,6 @@ if err != nil {
 
 # Disclaimer
 This is **NOT** an official or supported FLVS project and any action that FLVS may deem necessary to take on your account is not my fault. I didn't see anything in the FLVS TOS about this but **if** something does happen it is not my fault.
+
+# Note
+I no longer attend FLVS and cannot actually test this project anymore, if it stops working then you can fix it yourself and submit a PR.
